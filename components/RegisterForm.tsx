@@ -13,8 +13,7 @@ import {
   FormMessage,
 } from '@/components/ui/form'
 import { Input } from '@/components/ui/input'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { useState } from 'react'
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import Link from 'next/link'
 import { useAuth } from '../contexts/AuthContext'
 import { useRouter } from 'next/navigation'
@@ -30,7 +29,7 @@ const formSchema = z.object({
 });
 
 export function RegisterForm() {
-  const { session } = useAuth()
+  const { } = useAuth()
   const router = useRouter()
   
   const form = useForm<z.infer<typeof formSchema>>({    
