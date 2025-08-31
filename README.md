@@ -1,6 +1,6 @@
 # Polling App
 
-A modern polling application built with Next.js, Supabase, and shadcn/ui that allows users to create polls, vote, and view results.
+A simple polling application built with Next.js, Supabase, and shadcn/ui that allows users to create polls, vote, and view results.
 
 ## Project Overview
 
